@@ -11,14 +11,15 @@ http://www.youtube.com/watch?v=TS5RvqDsEoU&feature=player_embedded
 
 1. Install last version of JDK8, from https://jdk8.java.net/download.html
 2. Install last version of Leap Motion Software, from https://developer.leapmotion.com/downloads
-3. Clone the project and open it on your IDE. 
+3. Clone the project and open it on your favorite IDE. 
 4. Before running this project don't forget to set the path of the Leap Motion library:
 
         • libLeapJava.dylib (Mac)
-        • LeapJava.dll (Windows 32/64)
+        • LeapJava.dll (Windows 32 or 64)
         • libLeapJava.so (Linux)
 
    at the beginning of Leap3D.java:
-        System.setProperty( "java.library.path", "&lt;your path to Leap Motion library&gt;");
+
+        <i>System.setProperty( "java.library.path", "&lt;your path to Leap Motion library&gt;");<i>
 
 Jos&eacute; Pereda - @JPeredaDnr - Feb 2014
