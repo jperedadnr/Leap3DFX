@@ -20,6 +20,6 @@ http://www.youtube.com/watch?v=TS5RvqDsEoU&feature=player_embedded
 
    at the beginning of Leap3D.java:
 
-        System.setProperty( "java.library.path", "&lt;your path to Leap Motion library&gt;");
+        System.setProperty( "java.library.path", "<your path to the Leap Motion library>");
 
 Jos&eacute; Pereda - @JPeredaDnr - Feb 2014
